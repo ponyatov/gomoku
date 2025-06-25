@@ -6,4 +6,4 @@ bin/$(APP): $(G)
 
 .PHONY: watch
 watch: $(G)
-	wgo run $<
+	wgo -file go.mon -file src/*.go go run .

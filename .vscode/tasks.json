@@ -45,7 +45,7 @@
         {
             "label"          : "go: run",
             "type"           : "shell",
-            "command"        : "wgo run src/hello.go",
+            "command"        : "make watch",
             "problemMatcher" : [],
             "presentation"   : {"showReuseMessage": true, "focus": true, "reveal": "silent", "close": false},
             "group"          : {"kind": "build", "isDefault": true}
