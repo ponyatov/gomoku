@@ -12,3 +12,5 @@ S += $(wildcard lib/*.ini) $(wildcard lib/*.f)
 # JavaScript
 J += $(wildcard src/*.js)
 
+# Go
+G += $(wildcard src/*.go)
