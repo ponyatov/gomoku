@@ -1,9 +1,9 @@
 .PHONY: all
-all: bin/$(APP)
-bin/$(APP): $(G)
-	go build -o $@ $^
+all: $(BIN)/$(APP)
+$(BIN)/$(APP): $(G) $(MK)
+	cd src ; go build -o $@ .
 	file $@ ; size $@ ; ldd $@
 
 .PHONY: watch
 watch: $(G)
-	wgo -file go.mon -file src/*.go go run .
+	cd src ; wgo run .
