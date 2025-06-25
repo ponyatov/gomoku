@@ -1,3 +1,4 @@
 git make curl
 code meld doxygen clang-format
-golang npm nodejs
+golang gopls
+npm nodejs
