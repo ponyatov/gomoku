@@ -13,6 +13,7 @@ $(GOPLS): $(GO)
 	go install github.com/go-delve/delve/cmd/dlv@latest
 	go install golang.org/x/tools/staticcheck@latest
 	go install github.com/cweill/gotests/gotests@latest
+	go install github.com/bokwoon95/wgo@latest
 
 GZ += $(DISTR)/go/$(GO_GZ)
 $(DISTR)/go/$(GO_GZ):
