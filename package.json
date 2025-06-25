@@ -1,0 +1,23 @@
+{
+  "name": "gomoku",
+  "version": "0.0.1",
+  "description": "Go workout",
+  "main": "src/hello.go",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponyatov/gomoku.git"
+  },
+  "author": "Dmitry Ponyatov <dponyatov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ponyatov/gomoku/issues"
+  },
+  "homepage": "https://github.com/ponyatov/gomoku#readme"
+}
