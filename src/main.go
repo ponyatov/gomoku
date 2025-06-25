@@ -8,6 +8,7 @@ import (
 func main() {
 	fmt.Println("Hello, Пупкин")
 	for argc, argv := range os.Args {
-		fmt.Println("argv[", argc, "] = <", argv, ">")
+		fmt.Println("argv [", argc, "] = <", argv, ">")
 	}
 }
+
