@@ -6,4 +6,4 @@ $(BIN)/$(APP): $(G) $(MK)
 
 .PHONY: watch
 watch: $(G)
-	cd src ; wgo run .
+	cd src ; wgo run . $(S)

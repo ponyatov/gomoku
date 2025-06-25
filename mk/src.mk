@@ -13,4 +13,4 @@ S += $(wildcard lib/*.ini) $(wildcard lib/*.f)
 J += $(wildcard src/*.js)
 
 # Go
-G += $(wildcard src/*.go)
+G += $(wildcard src/*.go) $(wildcard src/*.mod)
