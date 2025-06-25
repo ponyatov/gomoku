@@ -50,5 +50,13 @@
             "presentation"   : {"showReuseMessage": true, "focus": true, "reveal": "silent", "close": false},
             "group"          : {"kind": "build", "isDefault": true}
         },
+        {
+            "label"          : "go: build",
+            "type"           : "shell",
+            "command"        : "go build -o bin/hello src/hello.go",
+            "problemMatcher" : [],
+            "presentation"   : {"showReuseMessage": true, "focus": true, "reveal": "silent", "close": false},
+            "group"          : {"kind": "build", "isDefault": true}
+        },
     ]
 }
